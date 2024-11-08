@@ -9,26 +9,23 @@
         android:id="@+id/firstFragment"
         android:name="com.example.navigationcomponentexample.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" >
+        tools:layout="@layout/fragment_first">
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment"
-            app:enterAnim="@animator/nav_default_enter_anim"
-            app:exitAnim="@animator/nav_default_enter_anim" />
+            app:destination="@id/secondFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.navigationcomponentexample.SecondFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" >
-        <action
-            android:id="@+id/action_secondFragment_to_thirdFragment2"
-            app:destination="@id/thirdFragment" />
+        tools:layout="@layout/fragment_second">
         <argument
             android:name="name"
             app:argType="string"
             android:defaultValue="Guest" />
     </fragment>
+
     <fragment
         android:id="@+id/thirdFragment"
         android:name="com.example.navigationcomponentexample.ThirdFragment"
