@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Grabadora
 
 import android.content.Intent
 import android.os.Bundle

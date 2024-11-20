@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Grabadora
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.navigationcomponentexample.R
 import java.text.SimpleDateFormat
 import java.util.Date
-import kotlin.contracts.Returns
 
 class Adapter(var records : ArrayList<AudioRecord>, var  listener: OnItemClickListener) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 

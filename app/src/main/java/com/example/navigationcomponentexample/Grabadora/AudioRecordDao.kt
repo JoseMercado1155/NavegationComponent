@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Grabadora
 
 import androidx.room.Dao
 import androidx.room.Delete

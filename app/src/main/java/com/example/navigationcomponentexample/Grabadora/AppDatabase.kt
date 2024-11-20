@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Grabadora
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

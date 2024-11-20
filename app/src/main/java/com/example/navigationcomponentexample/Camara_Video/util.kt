@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Camara_Video
 
 import android.content.Context
 import android.content.DialogInterface

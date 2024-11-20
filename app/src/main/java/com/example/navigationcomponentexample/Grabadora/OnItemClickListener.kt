@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample
+package com.example.navigationcomponentexample.Grabadora
 
 interface OnItemClickListener {
     fun onItemClickListener(position: Int)

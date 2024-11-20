@@ -1,4 +1,4 @@
-package com.example.navigationcomponentexample.Camara_Video
+package com.example.navigationcomponentexample
 
 import android.content.Context
 import android.graphics.Canvas

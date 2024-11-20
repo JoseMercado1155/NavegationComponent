@@ -31,6 +31,12 @@ class FirstFragment : Fragment() {
                 )
             )
         }
+
+        binding.BtnCamara.setOnClickListener {
+            findNavController().navigate(
+                FirstFragmentDirections.actionFirstFragmentToThirdFragment()
+            )
+        }
     }
 
     override fun onDestroyView() {
