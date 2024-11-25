@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_firstFragment_to_thirdFragment"
             app:destination="@id/thirdFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_crudFragment"
+            app:destination="@id/crudFragment" />
     </fragment>
 
     <fragment
@@ -34,4 +37,9 @@
         android:name="com.example.navigationcomponentexample.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/crudFragment"
+        android:name="com.example.navigationcomponentexample.CrudFragment"
+        android:label="fragment_crud"
+        tools:layout="@layout/fragment_crud" />
 </navigation>

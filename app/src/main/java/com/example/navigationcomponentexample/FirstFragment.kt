@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.navigationcomponentexample.databinding.FragmentFirstBinding // Asegúrate de importar el binding
+import com.example.navigationcomponentexample.databinding.FragmentFirstBinding
 
 class FirstFragment : Fragment() {
 
@@ -37,6 +37,13 @@ class FirstFragment : Fragment() {
                 FirstFragmentDirections.actionFirstFragmentToThirdFragment()
             )
         }
+
+        binding.BtnCrud.setOnClickListener {
+            findNavController().navigate(
+                FirstFragmentDirections.actionFirstFragmentToCrudFragment()
+            )
+        }
+
     }
 
     override fun onDestroyView() {
